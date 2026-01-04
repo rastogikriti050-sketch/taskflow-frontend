@@ -38,3 +38,49 @@ git clone https://github.com/<your-username>/taskflow-frontend.git
 cd taskflow-frontend
 npm install
 npm run dev
+
+```
+## Project Structure
+src/
+
+├── components/
+
+├── contexts/
+
+├── hooks/
+
+├── pages/
+
+├── lib/
+
+└── main.tsx
+
+## 🧪 Environment Variables
+
+Create a `.env` file in the root of the frontend project and add:
+
+VITE_API_URL=http://localhost:5000/api
+
+
+> ⚠️ Do not commit your `.env` file.  
+Add `.env` to your `.gitignore`.
+
+---
+
+## 🧬 Backend Connection
+
+Make sure your backend server is running on:
+
+http://localhost:5000/
+
+The frontend automatically connects to the backend using the `VITE_API_URL`.
+
+---
+
+## 🧭 Build for Production
+
+```bash
+npm run build
+
+
+## add your own ip in the backend to connnect
