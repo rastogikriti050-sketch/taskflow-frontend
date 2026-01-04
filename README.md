@@ -81,7 +81,7 @@ The frontend automatically connects to the backend using the `VITE_API_URL`.
 
 ```bash
 npm run build
-
+```
 <img width="1342" height="716" alt="signin" src="https://github.com/user-attachments/assets/4f616b6c-353b-4306-87ee-550a76ef551b" />
 
 <img width="1330" height="714" alt="register" src="https://github.com/user-attachments/assets/d9461a76-5eaa-4c45-bf19-9e7648396562" />
