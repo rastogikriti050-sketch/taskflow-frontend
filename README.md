@@ -82,5 +82,3 @@ The frontend automatically connects to the backend using the `VITE_API_URL`.
 ```bash
 npm run build
 
-
-## add your own ip in the backend to connnect
